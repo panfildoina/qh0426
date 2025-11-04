@@ -1,0 +1,22 @@
+#Display message to the screen
+print("Welcome to QH0246!")
+print("In week 1 we will learn...")
+print()
+print("...How to use Git and GitHub")
+print("...How to output on the screen")
+print("...How to get user input")
+print()
+print("I hope you are enjoying the lesson so far!")
+# Display escape characters
+print("\n Displays a new line")
+print("\t Displays a tab space")
+print("\\ Displays a back slash")
+print("\" Displays a double quote")
+print("\' Displays a single quote")
+print("\t I am programming")
+
+# Display a box
+print("##########")
+print("#  #  #  #")
+print("#        #")
+print("##########")
