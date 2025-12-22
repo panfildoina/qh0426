@@ -4,3 +4,9 @@ def greet ():
     print("Hello", name)
 
 greet()
+
+def greet():
+    print("Welcome to the program!")
+    print("Let's get started.")
+greet()
+

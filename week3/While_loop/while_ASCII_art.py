@@ -8,7 +8,7 @@ print()
 #While loop to simulate charging 
 while bars_charged < user:
     bars_charged +=1
-    print(f"Charging: {"█ " * bars_charged}")
+    print(f"Charging: {'█ ' * bars_charged}")
     
 
 print("The battery is fully charged.")

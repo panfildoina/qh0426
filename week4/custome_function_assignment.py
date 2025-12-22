@@ -1,4 +1,5 @@
 def escape_by(plan):
+    plan = plan.upper() #accepts lower case and upper case letters
     if plan == "A":
         print("We cannot escape that way! The boulder is too big")
     elif plan == "B":
