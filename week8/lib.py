@@ -1,0 +1,14 @@
+#matplotlib 
+import matplotlib.pyplot as plt
+def basicPlot():
+    x = [0,2,4,6,8,10]
+    y = [0,20,40,60,80,100]
+
+    plt.xlabel("x values")
+    plt.ylabel("y values")
+    
+    plt.plot(x,y,"o")
+    plt.show()
+
+def helloWorld():
+    print("Hello from Lib.py")

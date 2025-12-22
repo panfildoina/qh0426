@@ -1,18 +1,14 @@
 weight = float(input("Enter your weight "))
 unit = input("Kilograms or Pounds? Kg/Lb: ")
 
-if unit == "Kg":
-    weight == weight * 2.205 
-    unit = "Lbs"
-elif unit == "Lb":
-    weight = weight / 2.205
-    unit ="Kgs"
+if unit.upper() == "KG":
+    converted_weight = weight * 2.205 
+
+elif unit.upper() == "LB":
+    converted_weight = weight / 2.205
 else:
     print(f"{unit} was not valid")
 
-print(f"Your weight is: round(weight) {unit}")
+print(f"Your weight is: {round(converted_weight, 2)}{unit}")
 
 
-weight = float(input("What is your weight (in pounds)? "))
-weight = weight * 0.45463
-print(weight)
