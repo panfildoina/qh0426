@@ -6,8 +6,6 @@ def displaySmallest(num1, num2):
 
 displaySmallest (7, 5)
 
-
-
 #Select the missing word in the following cases:
 
 #[num2] is a parameter for the function.
